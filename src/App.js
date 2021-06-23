@@ -1,10 +1,20 @@
 import './App.css';
 
-function App() {
+import Header from './components/Header';
+import Contact from './components/Contact';
+import Nav from './components/Nav';
+// import Header from './components/Header';
+
+const App = () => {
+
   return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
+
+    <>
+      <Header/>
+      <Nav/>
+      <Contact/>
+      
+    </>
   );
 }
 
