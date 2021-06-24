@@ -21,8 +21,9 @@ const App = () => {
   return (
 
     <>
-      <Header/>
       <Nav/>
+
+      <Header/>
       <Job/>
       
       <Skill title = 'Languages'
