@@ -13,7 +13,8 @@ const App = () => {
     <>
       <Header/>
       <Nav/>
-      <Contact/>
+      <Job/>
+      
       <Skill title = 'Languages'
         list = { ['JavaScript', 'PHP', 'CSS', 'HTML' ] }
       />
@@ -33,6 +34,7 @@ const App = () => {
         <li></li>#
       </ul>
 
+      <Contact/>
       
     </>
   );
