@@ -64,6 +64,15 @@ const Nav = ( ) => {
                 >
                     Contact  
                 </Link>
+                <Link
+                    // no active links yet
+                    to = "Work"
+                    smooth = { true } 
+                    duration = { 1000 }
+                    className="links-nav"
+                >
+                    Work  
+                </Link>
                
             </nav>
         </>
