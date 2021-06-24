@@ -17,4 +17,4 @@ const Skill = ( { list, title } ) => {
     )
 }
 
-export default Skills
+export default Skill

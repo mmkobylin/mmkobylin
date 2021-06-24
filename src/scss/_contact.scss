@@ -1,0 +1,48 @@
+.contact-section{
+    background:linear-gradient(var(--bg-zero), var(--bg-secondary));
+    width: 100vw;
+}
+
+.contact-div {
+    padding: 0;
+    padding-bottom: 10vh;
+    grid-template-rows: 60% 30%;
+    grid-template-columns: 50% 50%;
+    display: grid;
+    width: 100vw;
+    text-align: center;
+    height: 25vh;
+    vertical-align: middle;
+}
+
+@media screen and (min-width:651px) and (max-width: 850px) {
+    .contact-div {
+        padding: 8vh 0;
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width: 1050px) {
+    .contact-div {
+        padding: 15vh 0;
+        height: 25vh;
+    }
+}
+
+@media screen and (min-width:651px) {
+    .contact-div {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        grid-gap: 0%;
+
+    }
+}
+@media screen and (min-width: 1200px) {
+    .contact-section {
+        padding-top: 15vh;
+        height: 35vh;
+    }
+
+}
+ 

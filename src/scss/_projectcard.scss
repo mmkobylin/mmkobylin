@@ -1,0 +1,271 @@
+.projectcard {
+    background: var(--bg-zero);
+    border-style: solid;
+    border-width: 2vw;
+    border-image: 
+    linear-gradient(45deg, var(--bg-quaternary), var(--bg-secondary), var(--border-color)) 1;
+    display: block;
+    padding: 5vh;
+    text-align: center;
+    overflow: hidden;
+    transition: box-shadow 1s ease;
+}
+
+.projectcard:hover {
+    box-shadow: -2px -2px 10px var(--text-color),
+    2px 2px 20px 5px var(--text-color), 
+    0px 0px 40px 10px var(--bg-tertiary);
+}
+
+.projectcard h3 {
+    font-size: 1.25rem;
+    padding:3vw;
+}
+
+.projectcard h3 ,
+.projectcard img ,
+.projectcard p {
+    transition: all 1s ease;
+}
+
+.projectcard a ,
+.projectcard h3 ,
+.projectcard p {
+    padding: 2vh;
+}
+
+.projectcard a ,
+.projectcard p {
+    font-size: 1.1rem;
+    padding: 5vw ;
+}
+
+.projectcard img {
+    display: block;
+    z-index: 2;
+    width: 100%;
+}
+
+.projectcard a:hover
+{
+    font-weight: bold;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px var(--border-color), 0 0 30px var(--border-color), 0 0 40px var(--border-color);
+}
+
+.projectcard a {
+    transition: all 1s ease;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    top:0; 
+}
+
+@media screen and (min-width: 551px) {
+    .projectcard a ,
+    .projectcard h3 ,
+    .projectcard p {
+        display: inline-block;
+        transform: scale(1.2);
+    }
+
+    .projectcard {
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width: 751px) and ( max-width: 950px) {
+    .projectcard {
+        margin: 0 10% 10% 10%;
+        padding: 0 10%;
+    }
+
+    .projectcard:last-child {
+        margin: 0 10%;
+        padding: 0 10%;
+    }
+
+    .projectcard img {
+        height: var(--standard-height);
+        width: var(--standard-height);
+        padding: 0 20%;
+    }
+
+    .projectcard a:hover{
+        transform: scale(2);
+    };
+}
+@media screen and (min-width:951px) and (max-width: 1199px) {
+
+    .projectcard a:hover
+    {
+        transform: scale(1.2);
+    }
+    
+    .project {
+        background: var(--bg-zero);
+        columns: 2;   
+    }
+
+    .projectcard {
+        border: 1vh solid var(--bg-quaternary);
+        height: 40rem;
+        width: 80%;
+    }
+
+    .projectcard h3 {
+        font-size: 1.5rem;
+        padding: 2vh;
+    }
+
+    .projectcard img {
+        width: 70%;
+        height: 50%;
+        padding: 0 15%;
+    }
+
+    .projectcard:hover {
+        z-index: 10;
+    }
+
+    .projectcard a:hover{
+        transform: scale(2);
+    };
+
+    .projectcard p {  
+        padding: 3vw 4vw; 
+    }
+ 
+}
+
+@media screen and (min-width:801px) {
+    .links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .projectcard:hover img {
+        top: 0px;
+    }
+    
+    .projectcard p {  
+        padding: 3vw 4vw;  
+        position: relative;
+        top: 0;
+    }
+
+}
+
+@media screen and (min-width:1201px) and (max-width: 1400px) {
+
+
+    .projectcard:hover img {
+        top: 500px;
+    }
+
+    .projectcard p {  
+        top: -600px;
+    }
+    
+    .projectcard a {
+        transition: all 1s ease;
+        top: -650px;
+    }
+
+    .projectcard h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .projectcard a,
+    .projectcard .description {
+        font-size: 1.1rem;
+    }
+
+    .projectcard {
+        overflow: hidden;
+        margin: 0.5vh;
+        border-width: 1vw;
+        padding: 4vh 0;
+        text-align: center;
+        height: 30vh;
+    }
+
+    .projectcard img {
+        height: 600px;
+        position: relative;
+        top: 0;
+    }
+
+    .links a:hover {
+        transform: scale(2);
+    }
+
+}
+
+@media screen and (min-width:1401px) {
+
+    .projectcard h3 {
+        font-size: 1.8rem;
+        padding: 2rem;
+    }
+
+    .projectcard {
+        height: 25vw;
+    }
+
+    .projectcard p {  
+        top: -560px;
+    }
+    
+    .projectcard a {
+        top: -1405px;
+    }
+
+    .projectcard:hover img {
+        top: 500px;
+    }
+
+    .projectcard p {  
+        top: -500px;
+    }
+    
+    .projectcard a {
+        transition: all 1s ease;
+        top: -550px;
+    }
+
+    .projectcard h3 {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    // .projectcard a,
+    // .projectcard .description {
+    //     font-size: 1.2rem;
+    // }
+
+    .projectcard {
+        overflow: hidden;
+        margin: 0.5vh;
+        border-width: 1vw;
+        padding: 7vh 0;
+        text-align: center;
+        height: 35vh;
+    }
+
+    .projectcard img {
+        height: 500px;
+        position: relative;
+        top: 0;
+    }
+
+    .links a:hover {
+        color: var(--bg-zero);
+        transform: scale(2);
+    }
+
+}
+
+

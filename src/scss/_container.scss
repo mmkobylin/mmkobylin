@@ -1,0 +1,21 @@
+.container 
+{
+    background: var(--bg-zero);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vh 0;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    z-index: 5;
+}
+
+@media screen and ( min-width:815px ) and ( max-width: 1160px ) {
+    .container 
+    {
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+}

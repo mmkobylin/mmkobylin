@@ -1,0 +1,102 @@
+@keyframes appear {
+    0% {
+        display: none;
+        top: 55vh;
+    }
+
+    100% {
+        display: block;
+        top: 0
+    }
+}
+
+
+@keyframes disappear {
+    0% {
+        display: block;
+        top: 0
+    }
+
+    100% {
+        display: none;
+        top: 55vh;
+    }
+}
+
+@keyframes levitate {
+    0%, 100% {
+        top: 0;
+    }
+
+    30%, 70% {
+        top: -30px;
+    }
+
+    50% {
+        top: -15px;
+
+    }
+}
+
+@keyframes sky-dis {
+    0% {
+        opacity: 1;
+
+    }
+    100% {
+
+        opacity: 0;
+    }
+}
+
+@keyframes rollDown1 {
+	0%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+    11%, 22% {
+		top: -50px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	33% {
+		top: 0px;
+		transform: rotateX(90deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown2 {
+	33%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+    44%, 55% {
+		top: -50px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	66% {
+		top: 0px;
+		transform: rotateX(90deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollDown3 {
+	66%{
+		top: -100px;
+		transform: rotateX(-90deg);
+	}
+    77%, 88% {
+		top: -50px;
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+
+	99%{
+		top: 0px;
+		transform: rotateX(90deg);
+		opacity: 0;
+	}
+}

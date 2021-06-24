@@ -1,0 +1,23 @@
+:root {
+
+    --angle : 0deg;
+    --bg-primary: #03071E;
+    --bg-secondary: #370617;
+    --bg-tertiary : #6A040F;
+    --bg-quaternary: #9D0208;
+    --bg-zero: #000000;
+
+    --standard-height: 30vw;
+    
+    --font-primary: 'Corben', cursive;
+    --font-secondary: 'Cutive Mono', monospace;
+    --font-tertiary: 'Eczar', serif;
+    --font-quaternary: 'Suranna', serif;
+   
+    --gradient: linear-gradient(35deg, var(--bg-secondary), var(--bg-zero) 50%, var(--bg-primary));
+    --border-color: #D0000D;
+    --text-color: #F6F7F8;
+    --transition: all 0.5s ease;
+    --height: 50vh;
+
+  }

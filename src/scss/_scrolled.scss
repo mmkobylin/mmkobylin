@@ -1,0 +1,79 @@
+.scrolled {
+    background-color: var(--bg-tertiary);
+    border: none;
+    border-radius: 0;
+    line-height: 1.5em;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 14vh;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.scrolled .title  {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrolled h1 {
+    margin: 0 1vh;
+    padding: 0px 20px;
+    font-size: 1rem;
+}
+
+.scrolled p {
+    display: none;
+}
+
+.scrolled .stars, .scrolled  .twinkling {
+    border-radius: 0;
+}
+
+
+@media screen and ( min-width:150px ) and ( max-width:400px ) 
+{ 
+    .scrolled {
+        height: 10px;
+    }
+    .scrolled h1 {
+        padding: 0px 10px;
+        font-size: 0.9rem;
+    }
+
+}
+
+
+@media screen and ( min-width:550px ) 
+{ 
+    .scrolled h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and ( min-width:800px ) 
+{ 
+    .scrolled h1{
+        padding: 15px 20px
+    }
+}
+
+@media screen and ( min-width:550px ) and ( max-width: 1099px ) 
+{ 
+    .scrolled h1 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and ( min-width:1100px ) 
+{   
+    .scrolled h1 {
+        font-size: 2rem;
+    }
+}
