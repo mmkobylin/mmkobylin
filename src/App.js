@@ -22,12 +22,13 @@ const App = () => {
 
     <>
       <Nav/>
-      <div>
         <Header/>
         <Subtitle subtitle = 'About me' />
-      </div>
       <Job/>
-      
+
+      <Subtitle subtitle = 'Skills' />
+
+      <div className='skills-format'>
       <Skill title = 'Languages'
         list = { ['JavaScript', 'PHP', 'CSS', 'HTML' ] }
       />
@@ -40,6 +41,8 @@ const App = () => {
       <Skill title = 'Server-side'
         list = { [ 'APIs', 'AWS', 'Blade Templates', 'Database Migration', 'MYSQL' ] }
       />
+      </div>
+
 
       <ul>
         <li>Testing</li>

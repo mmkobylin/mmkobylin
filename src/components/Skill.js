@@ -4,7 +4,7 @@ const Skill = ( { list, title } ) => {
 
     return (
         <div className="box">
-            <span></span>
+        {/* <span></span> */}
             <div className="card-content">
                 <h3>{ title } </h3>
                 <ul className="list">
@@ -12,8 +12,8 @@ const Skill = ( { list, title } ) => {
                         <li key = { key }> { value } </li>
                     ) }
                 </ul>
-            </div>
-        </div>
+             </div>
+        </div> 
     )
 }
 
