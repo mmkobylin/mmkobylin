@@ -40,8 +40,6 @@ svg {
     text-align: left;
 }
 
-
-
 svg:hover {
     box-shadow: -2px -2px 10px var(--text-color),
     2px 2px 20px 5px var(--text-color), 
@@ -49,11 +47,7 @@ svg:hover {
 }
 
 @media screen and (min-width:551px) and (max-width: 999px) {
-    a:hover
-    {
-        font-weight: bold;
-        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF;
-    }
+
     svg {
         height: 4.5rem;
         width: 4.5rem;

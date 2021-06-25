@@ -22,8 +22,10 @@ const App = () => {
 
     <>
       <Nav/>
-
-      <Header/>
+      <div>
+        <Header/>
+        <Subtitle subtitle = 'About me' />
+      </div>
       <Job/>
       
       <Skill title = 'Languages'
