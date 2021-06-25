@@ -1,11 +1,13 @@
 nav {
-    background:linear-gradient(var(--bg-zero), var(--bg-secondary));
     color: white;
     display: flex;
     justify-content: space-around;
     padding: 3rem 0.5rem 2rem;
 }
 
+nav :not(.nav-scroll, a) {
+    background:linear-gradient(var(--bg-zero), var(--bg-secondary));
+}
 nav a {
     font-size: 1.1rem;
 }
@@ -16,22 +18,35 @@ nav a {
 }
   
 .links-nav:after{
-content: '';
-position: absolute;
-width: 0; height: 3px;
-display: block;
-margin-top: 5px;
-right: 0;
-background: var(--text-color);
-transition: width .2s ease;
--webkit-transition: width .2s ease;
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: var(--text-color);
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
 }
 
 .links-nav:hover:after{
-width: 100%;
-left: 0;
-background: var(--text-color);
+    width: 100%;
+    left: 0;
+    background: var(--text-color);
 }
+
+.nav-scroll {
+    background-color: transparent;
+    transition: all 3s ease-in-out;
+    padding: 1.5rem 0.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+}
+
+// .nav-scroll {
+//     transform: scale(0.7);
+// }
 
 @media screen and (min-width:551px) and (max-width: 899px) {
 
@@ -49,6 +64,19 @@ background: var(--text-color);
         // font-weight: bold;
         text-shadow: 0 0 3px #FFF, 0 0 5px #FFF;
     }
+
+    .nav-scroll {
+        position: fixed !important;
+        height: 50px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        z-index: 300;
+        height: 10%;
+    }
+    
 
 }
 
