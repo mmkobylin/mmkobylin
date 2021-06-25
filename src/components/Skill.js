@@ -6,7 +6,7 @@ const Skill = ( { list, title } ) => {
         <div className="box">
             <span></span>
             <div className="card-content">
-                <h2>{ title } </h2>
+                <h3>{ title } </h3>
                 <ul className="list">
                     { list.map( ( value, key ) => 
                         <li key = { key }> { value } </li>

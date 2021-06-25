@@ -6,7 +6,7 @@ nav {
 }
 
 nav :not(.nav-scroll, a) {
-    background:linear-gradient(var(--bg-zero), var(--bg-secondary));
+    // background:linear-gradient(var(--bg-zero), var(--bg-secondary));
 }
 nav a {
     font-size: 1.1rem;
@@ -37,7 +37,7 @@ nav a {
 
 .nav-scroll {
     background-color: transparent;
-    transition: all 3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     padding: 1.5rem 0.5rem;
     position: fixed;
     width: 100%;
@@ -66,7 +66,7 @@ nav a {
     }
 
     .nav-scroll {
-        position: fixed !important;
+        position: fixed;
         height: 50px;
         bottom: 0px;
         left: 0px;
@@ -84,7 +84,6 @@ nav a {
 
     nav {
         display: block;
-        background:linear-gradient(var(--bg-secondary), var(--bg-zero));
     }
 
     nav a {
@@ -96,4 +95,13 @@ nav a {
         font-weight: bold;
     }
 
+    .nav-scroll {
+        text-align: right;
+        
+    }
+
+    .nav-scroll a {
+        font-size: 1.5rem;
+        padding: 1.5rem 4rem;
+    }
 }
