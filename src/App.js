@@ -33,7 +33,7 @@ const App = () => {
         list = { ['JavaScript', 'PHP', 'CSS', 'HTML' ] }
       />
       <Skill title = 'Frameworks/Plugins'
-        list = { [ 'Lavaravel', 'React/redux', 'Opencard', 'Woocommerce'] }
+        list = { [ 'Lavaravel', 'React/redux', 'Opencart', 'Woocommerce'] }
       />
       <Skill title = 'Tooling'
         list = { [  "Git & GULP", "npm", "VS Code", "Vagrant", "Balsamiq Cloud", "Storybook"]}
@@ -49,6 +49,11 @@ const App = () => {
         <li>Setting up virtual machines</li>
         <li></li>#
       </ul>
+
+      <Subtitle subtitle = 'Projects' />
+
+
+      <Subtitle subtitle = 'Contact' />
 
       <Contact/>
       
