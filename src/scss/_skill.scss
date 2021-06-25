@@ -12,9 +12,11 @@
     vertical-align: middle;
     height: 300px;
     transition: all 0.5s ease-in-out;
+    background: radial-gradient(var(--bg-zero) 50%, var(--bg-primary));
 }
 
 .card-content:hover {
+    background: radial-gradient(var(--bg-zero) 80%, var(--bg-primary));
     box-shadow:
     -50px -50px 0px -40px var(--text-color),
     50px 50px 0px -40px var(--text-color),
