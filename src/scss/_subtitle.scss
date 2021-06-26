@@ -2,7 +2,7 @@
 {
     background: var(--bg-zero);
     color: linear-gradient(#222, var(--text-color), #222);
-    padding: 3rem 0 0 0;
+    padding: 5rem 0 0 0;
     position: relative;
     text-align: center;
     width: 100vw;
@@ -10,12 +10,17 @@
     transition: 2s;
 }
 
+#About
+{
+    padding: 15rem 0 0 0;
+}
+
 h2 {
 
     color: linear-gradient(to left, transparent, var(--text-color), transparent);
     font-size: 1.4rem;
     text-decoration:none;
-    position: relative;
+    // position: relative;
 }
 
 .subContainer h2:before {

@@ -1,6 +1,11 @@
 .about_me {
+
     padding: 2rem 2rem;
     text-align: justify;
+}
+
+.about_subtitle {
+    padding-top: 100%
 }
 
 @media screen and (min-width:551px) and (max-width: 999px) {
@@ -8,7 +13,6 @@
     .about_me {
         font-size: 1.3rem;
         padding: 3rem 6rem;
-        padding-top: 8rem;
     }
     
 }

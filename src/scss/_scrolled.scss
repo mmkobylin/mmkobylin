@@ -42,45 +42,18 @@
 }
 
 
-// @media screen and ( min-width:150px ) and ( max-width:400px ) 
-// { 
-//     .scrolled {
-//         height: 10px;
-//     }
-//     .scrolled h1 {
-//         padding: 0px 10px;
-//         font-size: 0.9rem;
-//     }
-
-// }
-
-
-// @media screen and ( min-width:550px ) 
-// { 
-//     .scrolled h1 {
-//         font-size: 1.5rem;
-//     }
-// }
-
-// @media screen and ( min-width:800px ) 
-// { 
-//     .scrolled h1{
-//         padding: 15px 20px
-//     }
-// }
-
-// @media screen and ( min-width:550px ) and ( max-width: 1099px ) 
-// { 
-//     .scrolled h1 {
-//         font-size: 1.5rem;
-//     }
-
-// }
-
-@media screen and ( min-width:1600px ) 
-{   
+@media screen and ( min-width:600px ) {
     .scrolled h1 {
-        font-size: 2rem;
-        padding-left: 2rem;
+        font-size: 1.4rem;
     }
-}
+
+    .scrolled  {
+        display: block;
+    }
+} 
+
+@media screen and ( min-width:1300px ) {
+    .scrolled h1 {
+        font-size: 1.6rem;
+    }
+} 

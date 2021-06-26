@@ -12,9 +12,6 @@ import Skill from './components/Skill';
 import Scroll from './components/Scroll';
 import Section from './components/Section';
 import Subtitle from './components/Subtitle';
-import Navhead from './components/Navhead';
-// import Nav from './components/Nav';
-
 
 const App = () => {
 
@@ -23,25 +20,27 @@ const App = () => {
     <>
       <Nav/>
         <Header/>
-        <Subtitle subtitle = 'About me' />
-      <Job/>
+        <Subtitle subtitle = 'About' />
+        <Job/>
 
-      <Subtitle subtitle = 'Skills' />
+        <Subtitle subtitle = 'Skills' />
 
-      <div className='skills-format'>
-      <Skill title = 'Languages'
-        list = { ['JavaScript', 'PHP', 'CSS', 'HTML' ] }
-      />
-      <Skill title = 'Frameworks/Plugins'
-        list = { [ 'Lavaravel', 'React/redux', 'Opencart', 'Woocommerce'] }
-      />
-      <Skill title = 'Tooling'
-        list = { [  "Git & GULP", "npm", "VS Code", "Vagrant", "Balsamiq Cloud", "Storybook"]}
-      />
-      <Skill title = 'Server-side'
-        list = { [ 'APIs', 'AWS', 'Blade Templates', 'Database Migration', 'MYSQL' ] }
-      />
-      </div>
+        <div className='skills-format'>
+        <Skill title = 'Languages'
+          list = { ['JavaScript', 'PHP', 'CSS', 'HTML' ] }
+        />
+        <Skill title = 'Server-side'
+          list = { [ 'APIs', 'AWS', 'Blade Templates', 'Database Migration', 'MYSQL' ] }
+        />
+    
+        <Skill title = 'Frameworks/Plugins'
+          list = { [ 'Lavaravel', 'React/redux', 'Opencart', 'Woocommerce'] }
+        />
+        <Skill title = 'Tooling'
+          list = { [  "Git & GULP", "npm", "VS Code", "Vagrant", "Balsamiq Cloud", "Storybook"]}
+        />
+
+        </div>
 
 
       <ul>

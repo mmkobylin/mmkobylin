@@ -5,6 +5,10 @@
     bottom: 5px;
 }
 
+.scrolled .title { 
+    width: 100vw;
+}
+
 .intro {
     background: var(--bg-zero);
     border: 10px solid #fff;
@@ -20,8 +24,8 @@
     top: 0; 
     margin: 4vh 0;
     padding: 3vh 0;
-    // margin: 5vh;
-    // padding: 4vh;
+    width: 90%;
+    margin: 5%;
 }
 
 .title h1 {
@@ -30,6 +34,10 @@
     display:block;
     position: relative;
     z-index: 3;
+}
+
+.scrolled .title h1 {
+    max-width: 30%;
 }
 
 .title h1 {
@@ -94,6 +102,11 @@
     .title { 
         padding: 1rem;
         letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
+    .scrolled h1 {
+        font-size: 1.3rem;
     }
 }
 
@@ -105,23 +118,32 @@
 
     .title h1 {
         padding: 2rem 0rem;
+
     }
 }
 
 
 @media screen and ( min-width:561px ) and ( max-width: 900px) {
-
     .title h1 {
         padding: 2rem 0rem;
         font-size: 2rem;
+    }
+
+    .scrolled .title h1 {
+        max-width: 25%;
     }
 }
 
 
 @media screen and ( min-width:901px ) {
 
+    .scrolled .title h1 {
+        max-width: 25%;
+    }
+
+
     .title h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     .intro {
@@ -130,6 +152,29 @@
     }
 }
 
+
+@media screen and ( min-width:1001px ) {
+
+    .scrolled .title {
+        width: fit-content;
+    }
+
+    .scrolled  h1 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and ( min-width:1201px ) {
+    .title h1 {
+        font-size: 4rem;
+    }
+
+    .scrolled .title h1 {
+        max-width: 100%;
+    }
+    
+}   
 
 
 @media screen and ( min-width:450px )  {
@@ -147,14 +192,6 @@
         left: 0; 
         transition: 1s;
         top: 0; 
-        width: 90%;
-        margin: 5%;
+
     }
-
 }
-
-// @media screen and ( min-width:850px )  {
-//     .intro :not(.scrolled){
-//         height: 30vh;
-//     }
-// }

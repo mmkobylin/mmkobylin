@@ -63,6 +63,23 @@
     
 }
 
+
+@media screen and ( min-width: 950px) {
+
+    .card-content h3 {
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+
+    }
+
+    .card-content li {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+}
+
+
 @media screen and ( min-width: 1500px) {
 
     .skills-format
