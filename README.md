@@ -1,6 +1,6 @@
 # React App Portfolio
 
-This project is my react portfolio. Live link availble at https://mmkobylin.github.io/my-portfolio/
+This project is my react portfolio. Live link availble at https://mmkobylin.github.io/
 
 ## Info
 
