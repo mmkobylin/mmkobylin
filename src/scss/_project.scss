@@ -16,7 +16,8 @@
 @media screen and (min-width:1200px) {
     .project {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 31% 31% 31%;
+        padding: 3%;
     }
 
 }
