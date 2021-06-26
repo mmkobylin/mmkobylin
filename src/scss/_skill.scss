@@ -27,6 +27,7 @@
     50px -50px 0px -40px var(--text-color),
     -50px 50px 0px -40px var(--text-color);
     z-index: 10;
+    transition: var(--transition);
 }
 .card-content h3 {
     font-size: 1.3rem;
@@ -59,7 +60,7 @@
         margin-top: 3rem;
         display: grid;
         grid-template-columns: 50% 50%;
-        padding: 0 15%;
+        padding: 0 5%;
     }
     .box {
         display: flex;
@@ -102,9 +103,8 @@
 
     .skills-format
     {
-        grid-template-columns: repeat(2 1fr);
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     .card-content {
 
@@ -112,6 +112,9 @@
         width: 400px;
     }
 
+    .card-content:hover {
+        transform: scaleX(1.1);
+    }
     .card-content h3 {
         padding-top: 2.5rem;
     }
