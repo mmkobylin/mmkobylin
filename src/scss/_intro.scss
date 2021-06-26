@@ -1,8 +1,13 @@
+h1 {
+    transition: var(--transition);
+}
+
 .title { 
     padding: 0.3rem;
     letter-spacing: 0.2rem;
     position: relative;
     bottom: 5px;
+    transition: var(--transition);
 }
 
 .scrolled .title { 
@@ -26,6 +31,7 @@
     padding: 3vh 0;
     width: 90%;
     margin: 5%;
+    transition: var(--transition);
 }
 
 .title h1 {
@@ -67,6 +73,7 @@
     height: 100%; 
     z-index: 0;
     border-radius: 30px;
+    transition: var(--transition);
 }
 
 .intro .stars, .scrolled .stars {
@@ -172,6 +179,7 @@
     .scrolled .title h1 {
         max-width: 100%;
         font-size: 1.7rem;
+        top: 40px;
     }
     
 }   
