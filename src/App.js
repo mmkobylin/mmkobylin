@@ -1,8 +1,8 @@
 import './scss/style.scss';
-import {
-  BrowserRouter as Router,
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Route
+// } from "react-router-dom";
 import Card from './components/Card';
 import Cards from './components/Cards';
 import Contact from './components/Contact';
@@ -21,7 +21,7 @@ const App = () => {
 
   return (
 
-    <Router>
+    // <Router>
       <Fragment> 
         <Nav/>
         <Header/>
@@ -46,16 +46,16 @@ const App = () => {
           />
         </div>
         <Section
-            message = " ."
+            message = "Since I've graduated from DevelopMe_ Coding Bootcamp I have been freelancing and helping to build Bristol Tech Fair Webpage. My background is in the financial services."
         >
         </Section>
         <Subtitle subtitle = 'Projects' />
         <Projects/>
-        <Section message = 'Hello'/>
+        <Section message = 'When I am not coding, I am reading, cooking or doing martial arts.'/>
         <Subtitle subtitle = 'Contact' />
         <Contact/>
       </Fragment>
-    </Router>
+    // </Router>
   );
 }
 

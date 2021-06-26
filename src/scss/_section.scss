@@ -3,14 +3,14 @@
     align-items: center;
     background: var(--gradient);
     display: flex;
-    height: 60vh !important;
+    height: 65vh;
     background-color: var(--bg-quaternary);
-    // justify-content: center;
-    // mix-blend-mode: multiply;
-    // position: relative;
-    // width: 100vw;
-    // scroll-snap-align: start;   
-    // z-index: 1;
+    backdrop-filter: blur(10px);
+}
+
+
+.section:not(.about_me) {
+    
 }
 
 .section p {
@@ -38,11 +38,14 @@
     background-position: center;
 }
 
+.section:nth-child(2n+1) p {
+    filter: blur(0);
+}
 @media screen and ( min-width:550px ) and ( max-width: 899px )
 { 
     .section p {
         padding: 8vw 14vw;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 2;
     }
 }
@@ -50,8 +53,8 @@
 @media screen and ( min-width: 900px) 
 {
     .section p {
-        padding: 5vh 30vw;
-        font-size: 1.5rem;
+        padding: 5vh 23vw;
+        font-size: 1.8rem;
         line-height: 2;
         box-sizing: border-box;
     }
