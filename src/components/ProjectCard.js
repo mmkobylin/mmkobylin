@@ -4,15 +4,15 @@ import Packman from '../images/pacman.png'
 const Projectcard = ( { title, description, link, code, image } ) => {
     return (
         <>
-            <div class="flip-card">
-                <div class="flip-card-inner">
+            <div class="project-card">
+                <div class="project-card-inner">
                     {/*  front */}
-                    <div class="flip-card-front">
+                    <div class="project-card-front">
                         <h3> { title } </h3> 
                         <img className="card-image" src={ image } alt="Gold"/>
                     </div>
                     {/* back */}
-                    <div class="flip-card-back">
+                    <div class="project-card-back">
                         <h3> { title } </h3> 
                         <p className="description"> { description } </p>
                         <div className="links">
