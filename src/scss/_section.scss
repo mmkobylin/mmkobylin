@@ -1,9 +1,9 @@
-section
+.section
 {
     align-items: center;
     background: var(--gradient);
     display: flex;
-    height: 60vh;
+    height: 60vh !important;
     justify-content: center;
     mix-blend-mode: multiply;
     position: relative;
@@ -12,7 +12,7 @@ section
     z-index: 1;
 }
 
-section p {
+.section p {
     padding: 5vh;
     color: var(--text-color);
     font-size: 1rem;
@@ -20,7 +20,7 @@ section p {
     line-height: 2;
 }
 
-section:nth-child(1) 
+.section:nth-child(1) 
 {
     background: var(--bg-quaternary) url(../images/code1.jpg);
     background-size: cover;
@@ -29,7 +29,7 @@ section:nth-child(1)
     background-position: center;
 }
 
-section:nth-child(3)::before {
+.section:nth-child(1)::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -43,7 +43,7 @@ section:nth-child(3)::before {
 
 @media screen and ( min-width:550px ) and ( max-width: 899px )
 { 
-    section p {
+    .section p {
         padding: 8vw 14vw;
         font-size: 1.2rem;
         line-height: 2;
@@ -52,7 +52,7 @@ section:nth-child(3)::before {
 
 @media screen and ( min-width: 900px) 
 {
-    section p {
+    .section p {
         padding: 5vh 30vw;
         font-size: 1.5rem;
         line-height: 2;

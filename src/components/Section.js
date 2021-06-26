@@ -3,7 +3,8 @@ import React from 'react'
 const Section = ( { message } ) => {
 
     return (
-        <section>
+        <section className="section">
+            no kurwa nie moge.
             <p> { message } </p>
         </section>
     )

@@ -7,14 +7,13 @@ nav {
 }
 
 nav a {
-    position: relative;
-
     font-size: 1.1rem;
     transition: var(--transition);
     cursor: pointer;
 }
 
 .links-nav {
+    position: relative;
     transition: var(--transition);
 }
   
