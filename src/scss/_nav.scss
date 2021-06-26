@@ -1,5 +1,5 @@
 nav {
-    color: white;
+    color: var(--text-color);
     display: flex;
     justify-content: space-around;
     padding: 3rem 0.5rem 2rem;
@@ -7,12 +7,14 @@ nav {
 }
 
 nav a {
+    position: relative;
+
     font-size: 1.1rem;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .links-nav {
-    position: relative;
     transition: var(--transition);
 }
   
@@ -43,9 +45,6 @@ nav a {
     z-index: 300;
 }
 
-// .nav-scroll {
-//     transform: scale(0.7);
-// }
 
 @media screen and (min-width:551px) and (max-width: 899px) {
 

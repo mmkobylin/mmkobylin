@@ -17,6 +17,11 @@ svg {
     text-decoration: none;
     transition: all 1s ease;
     position: relative;
+    transition: var(--transition);
+}
+
+.mail:hover {
+    text-decoration: underline;
 }
 
 .contact-div a:nth-child(1) {
@@ -73,14 +78,26 @@ svg:hover {
         width: 4.5rem;
     }
     
+    .mail:hover {
+        text-decoration: underline !important;
+    }
+    
 }
+
 @media screen and (min-width: 550px) {
     svg {
         padding: 0;
         top: 3.5rem;
     }
-
 }
+
+@media screen and (min-width:700px) {
+
+    .svg:hover, .mail:hover {
+        transform: scale(1.1);
+    }
+}
+
 @media screen and (min-width:1200px) {
 
     .mail {
@@ -89,23 +106,7 @@ svg:hover {
         position: relative;
         text-decoration: none;
         transition: all 1s ease;
-        top: 7vh !important;
-    }
-
-    .mail:hover {
-        transform: scale(1.2);
-        text-shadow: 1px -1px 0 #767676,
-            -1px 2px 1px #737272,
-            -2px 4px 1px #767474,
-            -3px 6px 1px #787777,
-            -4px 8px 1px #7b7a7a,
-            -5px 10px 1px #7f7d7d,
-            -6px 12px 1px #828181,
-            -7px 14px 1px #868585,
-            -8px 16px 1px #8b8a89,
-            -9px 18px 1px #8f8e8d,
-            -10px 20px 1px #949392,
-            -11px 22px 1px #999897;
+        top: 6rem !important;
     }
 
     svg {
@@ -113,28 +114,9 @@ svg:hover {
         width: 6rem;
     }
 
-    .mail {
-        top: -6vh;
-    }
+    // .mail:hover {
+    //     text-shadow: -2px -2px 10px var(--text-color),
+    //     2px 2px 20px var(--text-color);
+    // }
 
-    svg:hover {
-        overflow: hidden;
-        transform: scale(1.2);
-        box-shadow: 
-        1px -1px 1px #858585,
-        -1px 2px 1px #858585,
-        -2px 4px 1px #8F8F8F,
-        -3px 6px 1px #999999,
-        -4px 8px 1px #A3A3A3,
-        -5px 10px 1px #B8B8B8,
-        -6px 12px 1px #CCCCCC,
-        -7px 14px 1px #E0E0E0,
-        -8px 16px 1px #EBEBEB,   
-    }
-
-    a:nth-child(2) {
-      
-        top: 2rem;
-    }
-    
 }

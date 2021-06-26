@@ -21,7 +21,10 @@ const App = () => {
       <Nav/>
         <Header/>
         <Subtitle subtitle = 'About' />
+        <Section message = 'Hello'/>
         <Job/>
+
+        <Section message = 'Hello'/>
 
         <Subtitle subtitle = 'Skills' />
 
@@ -42,14 +45,10 @@ const App = () => {
 
         </div>
 
-      <ul>
-        <li>Testing</li>
-        <li>Setting up virtual machines</li>
-        <li></li>
-      </ul>
-
       <Subtitle subtitle = 'Projects' />
       <Projects/>
+      <Section message = 'Hello'/>
+
       <Subtitle subtitle = 'Contact' />
 
       <Contact/>

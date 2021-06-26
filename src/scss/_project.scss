@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-@media screen and (min-width:751px) and (max-width: 1199px) {
+@media screen and (min-width:751px) and (max-width: 1299px) {
 
     .project {
         display: grid;
@@ -13,9 +13,17 @@
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1300px) {
     .project {
         display: grid;
+        grid-template-columns: 32% 32% 32%;
+        padding:0;
+        right:5px;
+    }
+
+}
+@media screen and (min-width:1500px) {
+    .project {
         grid-template-columns: 31% 31% 31%;
         padding: 3%;
     }

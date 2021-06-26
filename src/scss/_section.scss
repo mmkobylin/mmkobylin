@@ -20,7 +20,7 @@ section p {
     line-height: 2;
 }
 
-section:nth-child(even) 
+section:nth-child(1) 
 {
     background: var(--bg-quaternary) url(../images/code1.jpg);
     background-size: cover;
