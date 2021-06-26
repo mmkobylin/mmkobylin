@@ -1,15 +1,18 @@
 .project-card {
     background-color: transparent;
     cursor: pointer;
-    width: 350px;
+    min-width: 350px;
     height: 350px;
     perspective: 1000px;
     margin: 2rem;
     transition: var(--transition);
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .card-image {
-    width: 80%;
+    max-width: 80%;
     height: 80%;
 }
 
