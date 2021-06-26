@@ -6,8 +6,8 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Job from './components/Job';
 import Nav from './components/Nav';
-import Project from './components/Project';
 import Projects from './components/Projects';
+import Projectcard from './components/ProjectCard';
 import Skill from './components/Skill';
 import Scroll from './components/Scroll';
 import Section from './components/Section';
@@ -42,7 +42,6 @@ const App = () => {
 
         </div>
 
-
       <ul>
         <li>Testing</li>
         <li>Setting up virtual machines</li>
@@ -50,8 +49,7 @@ const App = () => {
       </ul>
 
       <Subtitle subtitle = 'Projects' />
-
-
+      <Projectcard/>
       <Subtitle subtitle = 'Contact' />
 
       <Contact/>
