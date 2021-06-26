@@ -45,11 +45,11 @@ const App = () => {
       <ul>
         <li>Testing</li>
         <li>Setting up virtual machines</li>
-        <li></li>#
+        <li></li>
       </ul>
 
       <Subtitle subtitle = 'Projects' />
-      <Projectcard/>
+      <Projects/>
       <Subtitle subtitle = 'Contact' />
 
       <Contact/>
