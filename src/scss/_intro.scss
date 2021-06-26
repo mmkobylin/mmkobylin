@@ -37,7 +37,7 @@
 }
 
 .scrolled .title h1 {
-    max-width: 30%;
+    max-width: 25%;
 }
 
 .title h1 {
@@ -118,7 +118,6 @@
 
     .title h1 {
         padding: 2rem 0rem;
-
     }
 }
 
@@ -138,9 +137,9 @@
 @media screen and ( min-width:901px ) {
 
     .scrolled .title h1 {
-        max-width: 25%;
+        // max-width: 20%;
+        font-size: 1.5rem;
     }
-
 
     .title h1 {
         font-size: 3rem;
@@ -172,6 +171,7 @@
 
     .scrolled .title h1 {
         max-width: 100%;
+        font-size: 1.7rem;
     }
     
 }   

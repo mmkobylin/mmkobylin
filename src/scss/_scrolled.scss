@@ -50,10 +50,23 @@
     .scrolled  {
         display: block;
     }
+
 } 
+@media screen and ( min-width:1000px ) {
+
+    .scrolled h1 {
+        margin: 2vh;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .scrolled .title  {
+        justify-content: start;
+    }
+}
 
 @media screen and ( min-width:1300px ) {
     .scrolled h1 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 } 
