@@ -5,6 +5,7 @@ const Section = ( { message } ) => {
     return (
         <section className="section">
             no kurwa nie moge.
+            jestem sekcja do kurwy nedzy
             <p> { message } </p>
         </section>
     )

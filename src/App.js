@@ -18,6 +18,14 @@ const App = () => {
   return (
 
     <>
+      <Section 
+        message = "Hi, my name is Marta, backend developer by day and frontend by night :) My current work as a Tech Support Engineer focuses mostly on API's, MYSQL and testing."
+        ></Section>
+        <Subtitle subtitle = "Skills"/>
+        <Section
+          message = "Since I've graduated from DevelopMe_ Coding Bootcamp I have been freelancing and helping to build Bristol Tech Fair Webpage. My background is in the financial services."
+        >        
+        </Section>
       <Nav/>
         <Header/>
         <Subtitle subtitle = 'About' />
