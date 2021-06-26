@@ -6,12 +6,19 @@ import Pong from '../images/pong.png'
 import Frankenstyle from '../images/frankenstyle.png'
 import Minesweeper from '../images/minesweeper.png'
 import Walton from '../images/walton.png'
+import Sticky from '../images/sticky.png'
 
 
 const Project = () => {
     return (
         <>
             <div className="project" >
+                <ProjectCard 
+                    title = { "Sticky-notes" }
+                    image = { Sticky } 
+                    description = { "Sticky notes react project, created using hooks." }
+                />
+
                 <ProjectCard 
                     title = { "Pong" }
                     image = { Pong } 
