@@ -1,17 +1,12 @@
 .section
 {
     align-items: center;
-    background: var(--gradient);
     display: flex;
     height: 65vh;
-    background-color: var(--bg-quaternary);
+    background-color: var(--bg-secondary);
     backdrop-filter: blur(10px);
 }
 
-
-.section:not(.about_me) {
-    
-}
 
 .section p {
     padding: 5vh;
@@ -23,7 +18,7 @@
 
 .section:nth-child(2n+1)
 {
-    background: var(--bg-quaternary) url(../images/code2.jpg);
+    background: var(--bg-secondary) url(../images/code2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: multiply;
@@ -31,7 +26,7 @@
 }
 
 .section:nth-child(2n+2) {
-    background: var(--bg-quaternary) url(../images/code1.jpg);
+    background: var(--bg-secondary) url(../images/code1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: multiply;
