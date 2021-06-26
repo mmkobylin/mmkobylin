@@ -66,12 +66,12 @@ const Nav = ( ) => {
                 </Link>
                 <Link
                     // no active links yet
-                    to = "Work"
+                    to = "About"
                     smooth = { true } 
                     duration = { 1000 }
                     className="links-nav"
                 >
-                    Work  
+                    About  
                 </Link>
                
             </nav>
