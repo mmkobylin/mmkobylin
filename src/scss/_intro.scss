@@ -16,7 +16,7 @@ h1 {
 
 .intro {
     background: var(--bg-zero);
-    border: 10px solid #fff;
+    border: 6px solid #fff;
     border-radius: 30px;
     cursor: pointer;
     display: block;
@@ -29,14 +29,14 @@ h1 {
     top: 0; 
     margin: 4vh 0;
     padding: 3vh 0;
-    width: 90%;
-    margin: 5%;
+    width: 94%;
+    margin: 3%;
     transition: var(--transition);
 }
 
 .title h1 {
-    padding: 2rem 0rem;
-    font-size: 4.5em;
+    padding: 1rem 0rem;
+    font-size: 4em;
     display:block;
     position: relative;
     z-index: 3;
@@ -50,7 +50,7 @@ h1 {
     display:block;
     position: relative;
     z-index: 3;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .title p {
@@ -106,6 +106,12 @@ h1 {
 
 @media screen and ( min-width:550px ) and ( max-width: 700px ) {
 
+    .intro {
+        border: 10px solid var(--text-color);
+        width: 90%;
+        margin: 5%;
+    }
+
     .title { 
         padding: 1rem;
         letter-spacing: 0.2rem;
@@ -115,9 +121,16 @@ h1 {
     .scrolled h1 {
         font-size: 1.3rem;
     }
+    
 }
 
 @media screen and ( min-width:701px ) and ( max-width: 900px ) {
+
+    .intro {
+        border: 15px solid var(--text-color);
+        width: 80%;
+        margin: 10%;
+    }
 
     .title h1 :not(.scrolled .title) {
         font-size: 2rem;
@@ -127,7 +140,6 @@ h1 {
         padding: 2rem 0rem;
     }
 }
-
 
 @media screen and ( min-width:561px ) and ( max-width: 900px) {
     .title h1 {
@@ -143,8 +155,17 @@ h1 {
 
 @media screen and ( min-width:901px ) {
 
+    .intro {
+        border: 15px solid var(--text-color);
+        width: 80%;
+        margin: 10%;
+    }
+
+    .title h1 {
+        padding: 2.5rem;
+    }
+
     .scrolled .title h1 {
-        // max-width: 20%;
         font-size: 1.5rem;
     }
 
