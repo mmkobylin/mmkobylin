@@ -19,7 +19,7 @@ const App = () => {
         <Header/>
         <Subtitle subtitle = 'About'/>
         <Section 
-            message = "I am back end by day, front end by night. Currently working as an Tech Support Engineer where I spend time testing, finding bugs and providing information from database. At home I like nothing better than dive in react and css."
+            message = "I am back end by day, front end by night. Currently I am working as an Tech Support Engineer, where I spend my time testing, finding bugs and providing information. In my free time I enjoy working with React and CSS."
         >
         </Section>
         <Subtitle subtitle = 'Skills' />
@@ -38,7 +38,7 @@ const App = () => {
           />
         </div>
         <Section
-            message = "Since I've graduated from DevelopMe_ Coding Bootcamp I have been freelancing and helping to build Bristol Tech Fair Webpage. My background is in the financial services."
+            message = "Since I've graduated from DevelopMe Coding Bootcamp I have been freelancing and helping to build Bristol Tech Fair Webpage. My background is in the financial services."
         >
         </Section>
         <Subtitle subtitle = 'Projects' />
