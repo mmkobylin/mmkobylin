@@ -1,8 +1,8 @@
 .project-card {
     background-color: transparent;
     cursor: pointer;
-    min-width: 350px;
-    height: 350px;
+    min-width: 280px;
+    height: 280px;
     perspective: 1000px;
     margin: 2rem;
     transition: var(--transition);
@@ -85,6 +85,13 @@
     transform: rotateY(180deg);
 }
 
+@media screen and (min-width:400px) {
+
+    .project-card {
+        min-width: 350px;
+        height: 350px;
+    }
+}
 @media screen and (min-width:1200px) {
     .project-card {
         width: 450px;
