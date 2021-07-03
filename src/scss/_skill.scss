@@ -19,8 +19,6 @@
     background: radial-gradient(var(--bg-zero) 50%, var(--bg-primary));
 }
 
-
-
 .card-content:hover {
     background: radial-gradient(var(--bg-zero) 80%, var(--bg-primary));
     box-shadow:
@@ -69,7 +67,7 @@
         grid-template-columns: 50% 50%;
         padding: 0 5%;
     }
-    
+
     .box {
         display: flex;
         justify-content: center;
