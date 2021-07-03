@@ -45,10 +45,11 @@
     transition: transform 2s;
     animation-delay: 1s;
     transform-style: preserve-3d;
+    backface-visibility: hidden;
 }
 
 .project-card-back {
-    background: linear-gradient(135deg, var(--bg-primary), var(--border-color));
+    background: linear-gradient(180deg, var(--bg-primary), var(--border-color));
     display: flex;
 }
 
@@ -92,6 +93,12 @@
     font-size: 1.4rem;
 }
     
+
+
+.project-card-back:first-of-type {
+    background: floralwhite !important;
+}
+
 @media screen and (min-width:400px) {
 
     .project-card {
@@ -120,6 +127,7 @@
 
     .project-card a:hover {
         font-size: 2rem;
+        text-decoration: none;
     }
     
 
