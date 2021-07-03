@@ -51,17 +51,17 @@ nav a {
 
 @media screen and ( min-width:400px ) {
 
+    .nav-scroll {
+
+        padding: 1.5rem 0.5rem;
+    }
+    
     nav a {
         font-size: 1rem;
     }
 }
 
 @media screen and (min-width:551px) and (max-width: 950px) {
-    
-    .nav-scroll {
-
-        padding: 1.5rem 0.5rem;
-    }
     
     .intro-background {
         padding: 2rem 0;

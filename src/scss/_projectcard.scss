@@ -29,6 +29,7 @@
 .project-card-back {
     background: linear-gradient(135deg, var(--bg-primary), var(--border-color));
     display: flex;
+    overflow: hidden;
 
 }
 
@@ -53,6 +54,7 @@
     align-content: stretch;
     justify-content: space-evenly;
     align-items: center;
+    overflow: hidden;
 }
 
 

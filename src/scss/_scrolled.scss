@@ -4,7 +4,7 @@
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 70px;
+    height: 60px;
     z-index: 100;
     border: none;
     border-radius: 0;
@@ -45,10 +45,6 @@
         height: 150px;
     }
     
-    nav a {
-        font-size: 1rem;
-    }
-
     .scrolled h1 {
         display: block;
         margin: 2vh 0;
@@ -64,7 +60,7 @@
 
 @media screen and ( min-width:620px ) {
     .scrolled h1 {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
 
     .scrolled {
