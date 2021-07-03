@@ -46,10 +46,19 @@
     }
 }
 
+
 @media screen and ( min-width: 900px) 
 {
     .section p {
         padding: 5vh 23vw;
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and ( min-width: 1300px) 
+{
+    .section p {
         font-size: 1.8rem;
         line-height: 2;
         box-sizing: border-box;

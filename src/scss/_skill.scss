@@ -19,6 +19,8 @@
     background: radial-gradient(var(--bg-zero) 50%, var(--bg-primary));
 }
 
+
+
 .card-content:hover {
     background: radial-gradient(var(--bg-zero) 80%, var(--bg-primary));
     box-shadow:
@@ -35,7 +37,7 @@
 }
 
 .card-content li {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .skills-format {
@@ -50,10 +52,15 @@
     }
     .card-content li {
         padding:0.3rem;
+    
     }
 }
 
 @media screen and ( min-width: 750px) {
+
+    .card-content li {
+        font-size: 1.3rem;
+    }
 
     .skills-format
     {

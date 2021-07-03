@@ -7,7 +7,7 @@ nav {
 }
 
 nav a {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     transition: var(--transition);
     cursor: pointer;
 }
@@ -38,14 +38,34 @@ nav a {
 .nav-scroll {
     background-color: transparent;
     transition: var(--transition);
-    padding: 1.5rem 0.5rem;
+    padding: 2.5rem 0.5rem;
     position: fixed;
     width: 100%;
     z-index: 300;
 }
 
 
-@media screen and (min-width:551px) and (max-width: 899px) {
+.intro-background {
+    padding: 1rem 0;
+}
+
+@media screen and ( min-width:400px ) {
+
+    nav a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:551px) and (max-width: 950px) {
+    
+    .nav-scroll {
+
+        padding: 1.5rem 0.5rem;
+    }
+    
+    .intro-background {
+        padding: 2rem 0;
+    }
 
     nav {
         padding: 4rem 1rem 2rem;
@@ -61,9 +81,17 @@ nav a {
         text-shadow: 0 0 3px var(--text-color), 0 0 5px var(--text-color);
     }
 
+    .title h1 {
+        font-size: 1.4rem;
+    }
+    
+    .title p {
+        font-size: 1rem;
+    }
+
 }
 
-@media screen and (min-width:900px)  {
+@media screen and (min-width:951px)  {
 
     nav {
         display: block;

@@ -1,5 +1,14 @@
-h1 {
+.title h1 {
     transition: var(--transition);
+    font-size: 1rem; 
+    padding: 1rem 0rem;
+    display:block;
+    position: relative;
+    z-index: 3;
+}
+
+.title p {
+    font-size: 0.8rem;
 }
 
 .title { 
@@ -34,23 +43,8 @@ h1 {
     transition: var(--transition);
 }
 
-.title h1 {
-    padding: 1rem 0rem;
-    font-size: 4em;
-    display:block;
-    position: relative;
-    z-index: 3;
-}
-
 .scrolled .title h1 {
     max-width: 25%;
-}
-
-.title h1 {
-    display:block;
-    position: relative;
-    z-index: 3;
-    font-size: 1.4em;
 }
 
 .title p {
@@ -126,6 +120,10 @@ h1 {
 
 @media screen and ( min-width:701px ) and ( max-width: 900px ) {
 
+    h1 {
+        font-size: 1.5rem;
+    }
+
     .intro {
         border: 15px solid var(--text-color);
         width: 80%;
@@ -153,7 +151,11 @@ h1 {
 }
 
 
-@media screen and ( min-width:901px ) {
+@media screen and ( min-width: 901px ) {
+
+    h1 {
+        font-size: 1.75rem;
+    }
 
     .intro {
         border: 15px solid var(--text-color);
