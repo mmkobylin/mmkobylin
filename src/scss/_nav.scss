@@ -7,7 +7,7 @@ nav {
 }
 
 nav a {
-    font-size: 0.8rem;
+    font-size: 1rem;
     transition: var(--transition);
     cursor: pointer;
 }
@@ -38,7 +38,7 @@ nav a {
 .nav-scroll {
     background-color: transparent;
     transition: var(--transition);
-    padding: 2.5rem 0.5rem;
+    padding: 1.5rem 0.5rem;
     position: fixed;
     width: 100%;
     z-index: 300;
@@ -99,7 +99,6 @@ nav a {
 
     nav a {
         font-size: 2rem;
-        
         padding: 2rem 4rem;
     }
 

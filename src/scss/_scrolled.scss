@@ -62,11 +62,6 @@
     .scrolled h1 {
         font-size: 1.25rem;
     }
-
-    .scrolled {
-        display: block;
-    }
-
 } 
 @media screen and ( min-width:1000px ) {
 
@@ -74,6 +69,10 @@
         margin: 2vh;
         font-size: 1rem;
         padding: 0;
+    }
+
+    .scrolled {
+        display: block;
     }
 
     .scrolled .title  {

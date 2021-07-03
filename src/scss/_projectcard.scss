@@ -11,19 +11,24 @@
     align-items: center;
 }
 
+.project-card a:hover {
+    text-decoration: underline;
+    padding: 2rem;
+}
+
+
 @media screen and (max-width:499px) {
 
-    .project-card-front {
-        z-index: 2;
-    }
-
     .project-card-back {
+        transition: var(--transition);
         z-index: 0;
+        opacity: 0;
     }
 
     .project-card:hover .project-card-back {
         z-index: 20;
         transform: rotateY(0deg);
+        opacity: 1;
     }
 }
 
@@ -78,9 +83,6 @@
     text-decoration: none;
 }
 
-.project-card a:hover {
-    font-size: 2rem;
-}
 
 .project-card-front h3 {
     padding:1rem;
@@ -115,5 +117,10 @@
         width: 450px;
         height: 450px;
     }
+
+    .project-card a:hover {
+        font-size: 2rem;
+    }
+    
 
 }
