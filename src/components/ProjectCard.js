@@ -29,7 +29,7 @@ export default Projectcard
 
 Projectcard.defaultProps = {
     title: "I am no longer your calculator",
-    description: "Basic calculator, done as a practical project to refresh vanilla JavaScript and DOM.",
+    description: "If you see this, something has fallen over.",
     link: "ahref",
     code: "codelink",
     image: Packman

@@ -76,11 +76,11 @@
     padding: 2rem;
     transition: var(--transition);
     text-decoration: none;
+    display: inline-block;
 }
 
 .project-card-back a:hover {
-    transform: scale(1.4);
-    background-color: var(--bg-zero);
+    transform: scale(2);
 }
 
 .project-card-front h3 {
@@ -89,13 +89,6 @@
 
 .project-card h3 {
     font-size: 1.4rem;
-}
-    
-
-
-
-.project-card-back:first-of-type {
-    background: floralwhite !important;
 }
 
 @media screen and (min-width:400px) {
