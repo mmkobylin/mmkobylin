@@ -18,8 +18,9 @@ const App = () => {
         <Nav/>
         <Header/>
         <Subtitle subtitle = 'About'/>
-        <Section 
-            message = "I am back end by day, front end by night. Currently I am working as a Tech Support Engineer, where I spend my time testing, QA'ing, finding bugs and providing information. In my free time I enjoy working with React and CSS."
+        <Section
+          id = 'About' 
+          message = "I am back end by day, front end by night. Currently I am working as a Tech Support Engineer, where I spend my time testing, QA'ing, finding bugs and providing information. In my free time I enjoy working with React and CSS."
         >
         </Section>
         <Subtitle subtitle = 'Skills' />

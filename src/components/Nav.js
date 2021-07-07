@@ -46,15 +46,6 @@ const Nav = ( ) => {
                 >
                     Skills  
                 </Link>
-                <Link
-                    to = "Projects"
-                    smooth = { true } 
-                    duration = { 1000 }
-                    offset = { -150 }
-                    className="links-nav"
-                >
-                    Projects  
-                </Link>
 
                 <Link
                     to = "Contact"
@@ -64,14 +55,26 @@ const Nav = ( ) => {
                 >
                     Contact  
                 </Link>
+                
                 <Link
                     // no active links yet
-                    to = "About"
+                    to = "Projects" 
                     smooth = { true } 
                     duration = { 1000 }
+                    className = "links-nav"
+                >
+                    Projects  
+                </Link>
+
+                <Link
+                    
+                    to =  "About"
+                    smooth = { true } 
+                    duration = { 1000 }
+                    offset = { -150 }
                     className="links-nav"
                 >
-                    About  
+                    { scroll  ?  'Top' : 'About' } 
                 </Link>
                
             </nav>
